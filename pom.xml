@@ -48,7 +48,7 @@
         		<configuration>
         		 	<appName>project-a-software-tools</appName>
         		 	<processTypes>
-     					<web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+     					<web>java $JAVA_OPTS -cp target/classes:target/dependency/* ProjectAApplication</web>
   					</processTypes>
         		 </configuration>
      		 </plugin>
