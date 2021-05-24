@@ -11,6 +11,7 @@
 	<groupId>pu.fmi.masters</groupId>
 	<artifactId>project-a</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>project-a</name>
 	<description>Software Tools Assignment</description>
 	<properties>
@@ -55,5 +56,9 @@
      		 </plugin>
 		</plugins>
 	</build>
+	
+	<modules>
+    	<module>project-b</module>
+	</modules>
 
-</project>
+	</project>
