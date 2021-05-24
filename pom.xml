@@ -15,6 +15,7 @@
 	<description>Software Tools Assignment</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<full-artifact-name>target/${project.artifactId}-${project.version}.jar</full-artifact-name>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -48,7 +49,7 @@
         		<configuration>
         		 	<appName>project-a-software-tools</appName>
         		 	<processTypes>
-     					<web>java -jar -Dserver.port=$PORT target/project-a-0.0.1-SNAPSHOT.jar</web>
+     					<web>java -jar -Dserver.port=$PORT ${full-artifact-name}</web>
   					</processTypes>
         		 </configuration>
      		 </plugin>
