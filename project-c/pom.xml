@@ -5,5 +5,14 @@
     <artifactId>project-a</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>project-b</artifactId>
+  <artifactId>project-c</artifactId>
+  
+  <dependencies>
+	<dependency>
+		<groupId>pu.fmi.masters</groupId>
+    	<artifactId>project-b</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+  
 </project>
