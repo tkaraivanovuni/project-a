@@ -5,6 +5,10 @@ dist: trusty
 jdk:
 - openjdk8
 
+branches:
+  only:
+  - master
+
 before_install:
 - mvn clean
 
