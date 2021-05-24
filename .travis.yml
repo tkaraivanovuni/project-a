@@ -1,0 +1,12 @@
+language: java
+
+dist: trusty
+
+jdk:
+- openjdk8
+
+before_install:
+- mvn clean
+
+script:
+- mvn clean package
